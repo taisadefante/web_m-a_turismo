@@ -7,6 +7,10 @@
       src="https://kit.fontawesome.com/56851b347a.js"
       crossorigin="anonymous"
     ></script>
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="./style.css" />
     <title>M&A TURISMO</title>
   </head>
@@ -34,6 +38,8 @@
             <h1>M&A TURISMO</h1>
           </div>
           <div class="nav-list">
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="itens">
             <ul>
               <li class="nav-item">
                 <a href="#home" class="nav-link">Inicio</a>
@@ -50,9 +56,8 @@
               <li class="nav-item">
                 <a href="#contato" class="nav-link">Contato</a>
               </li>
-
-
             </ul>
+            </menu>
             <div class="login-button">
               <button class="login-text">
                 <a href="https://wa.me/5521991819294">Whatsapp</a> <i class="fa-solid fa-arrow-right"></i>
@@ -178,4 +183,13 @@
   </section>
   </body>
   <script src="./script.js"></script>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block") {
+        itens.style.display = "none";
+      } else {
+        itens.style.display = "block";
+      }
+    }
+  </script>
 </html>
