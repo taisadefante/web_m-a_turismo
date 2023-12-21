@@ -4,13 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,200&display=swap");
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "montserrat", sans-serif;
-  box-sizing: border-box;
-}
-
 /**********HEADER************************/
 
 header {
@@ -20,6 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
+  margin: 0 10px 0 10px;
 }
 
 .contatos {
@@ -43,6 +37,7 @@ header {
 
 .logo {
   display: inline-block;
+  margin: 0 10px 0 10px;
 }
 
 .img_logo {
@@ -168,7 +163,7 @@ h3 {
 }
 .img-programacao {
   width: 30%;
-  height: 200px;
+  height: 300px;
   padding: 2px;
   border-radius: 10px;
   margin: 10px 0 0 10px;
@@ -204,6 +199,7 @@ h5 {
   gap: 30px;
   background-color: white;
 }
+
 #contact form {
   display: flex;
   flex-direction: column;
@@ -237,7 +233,6 @@ button {
 .button {
   color: white;
   background-color: #0c28fe;
-  border: ;
 }
 /* ****************FOOTER ****************/
 
