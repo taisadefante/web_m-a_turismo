@@ -40,7 +40,7 @@ header {
 /************************************NAV*****************************/
 
 a.nav-link {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .nav-bar {
@@ -79,12 +79,11 @@ i {
 }
 
 .nav-item {
-  margin: 0px 15px;
+  margin: 0 10px;
 }
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.15rem;
   font-weight: 400;
   font-weight: bold;
   color: #002f5c;
@@ -93,7 +92,7 @@ i {
 .login-button button {
   border: none;
   background-color: #0c28fe;
-  padding: 20px 70px;
+  padding: 20px 40px;
 }
 
 .login-text a {
@@ -108,24 +107,21 @@ i {
 /************************************HOME***********************************/
 
 .banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./Img/tecnologia.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(54, 52, 52) url(./Img/tecnologia.jpg);
   width: 100%;
   height: 60vh;
-  display: flex;
+  display: block;
   align-items: center;
 }
 
 .text-banner {
   display: flex;
   font-weight: bold;
-  margin-left: 200px;
   font-size: 55px;
   color: white;
   flex-direction: column;
   align-items: center;
+  padding: 10%;
 }
 
 span {
@@ -171,5 +167,54 @@ footer {
   background-color: #002f5c;
   font-size: 10px;
 }
+/*****************************************SOBRE******************/
+/*****************************************PROGRAMAÇÃO******************/
 
+.titulo {
+  color: #0c28fe;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 95%;
+  height: 90%;
+  border: 4px solid #0c28fe;
+  margin: 20px 20px 20px 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+h3 {
+  color: #0c28fe;
+  text-align: center;
+  margin-top: 10px;
+}
+.img-programacao {
+  width: 15%;
+  height: 200px;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 10px 0 0 10px;
+}
+
+p {
+  margin: auto;
+  padding: 5px 8px 0 8px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+}
+
+h5 {
+  text-align: center;
+  margin-top: 10px;
+}
 /*****************************************RESPONSIVO**************************/
