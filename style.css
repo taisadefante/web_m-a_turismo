@@ -38,10 +38,11 @@ header {
 .logo {
   display: inline-block;
   margin: 0 10px 0 10px;
+  position: absolute;
 }
 
 .img_logo {
-  width: 50%;
+  width: 70%;
 }
 
 i#burguer {
