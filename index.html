@@ -167,7 +167,7 @@
      <!-------------------------------FOTOS---------------------------------->
     <section id="fotos">
 
-       <h2 class="titulo">FOTOS</h2>
+       <h2 class="titulo">Fotos</h2>
 
       <div class="div-card">
         <div class="card">
@@ -224,11 +224,20 @@
    <section id="contact">
    
       <h2 class="titulo">Entre em contato</h2>
+
       <form action="https://formsubmit.co/mariadefante@gmail.com" method="post">
+       
         <input type="text" placeholder="Digite seu nome" />
+        <input type="number" placeholder="Digite seu Telefone" />
         <input type="email" placeholder="Digite seu e-mail" />
+
+        <input type="hidden" name="_captcha" value="false"/>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html"/>
+
         <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-        <button>Enviar</button>
+        <button><input type="submit" value="Enviar" class="button"></button>
+
+        
       </form>
    </section>
     
