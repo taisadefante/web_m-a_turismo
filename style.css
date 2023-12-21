@@ -107,7 +107,7 @@ article > p {
 .banner {
   background: rgb(54, 52, 52);
   width: 100%;
-  height: 60%;
+  height: 40%;
   display: block;
   align-items: center;
 }
@@ -145,7 +145,7 @@ button {
 
 .titulo {
   color: #0c28fe;
-  font-size: 50px;
+  font-size: 300%;
   text-align: center;
   margin-top: 30px;
 }
@@ -191,6 +191,8 @@ h5 {
   margin-top: 10px;
 }
 
+/* ****************CONTATO****************/
+
 /* ****************FOOTER ****************/
 
 footer {
@@ -200,4 +202,15 @@ footer {
   color: white;
   background-color: #002f5c;
   font-size: 10px;
+}
+
+/*******************RESPONSIVO****************/
+
+@media (max-width: 947px) {
+}
+
+@media (max-width: 690px) {
+}
+
+@media (max-width: 500px) {
 }
