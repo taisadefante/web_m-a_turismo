@@ -192,7 +192,44 @@ h5 {
 }
 
 /* ****************CONTATO****************/
-
+#contact {
+  height: calc(100vh + 80px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(109, 107, 111);
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  width: 100%;
+  padding: 5px 20px;
+}
+input,
+textarea,
+button {
+  box-shadow: 0 1px 2px rgb(109, 107, 111);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+#contact form button {
+  background-color: #0c28fe;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+#contact form button:hover {
+  opacity: 2;
+}
 /* ****************FOOTER ****************/
 
 footer {
