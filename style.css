@@ -42,7 +42,7 @@ header {
 }
 
 .img_logo {
-  width: 70%;
+  width: 80%;
 }
 
 i#burguer {
@@ -163,11 +163,12 @@ h3 {
   margin-top: 10px;
 }
 .img-programacao {
-  width: 200px;
+  float: left;
+  width: 33%;
   height: 200px;
-  padding: 2px;
-  border-radius: 10px;
-  margin: 10px 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
 
 p {
@@ -238,7 +239,6 @@ button {
 /* ****************FOOTER ****************/
 
 footer {
-  box-shadow: 0px -1px 0px 0px #000000;
   padding: 12px;
   text-align: center;
   color: white;
