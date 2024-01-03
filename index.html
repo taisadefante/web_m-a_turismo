@@ -8,10 +8,16 @@
       crossorigin="anonymous"
     ></script>
     <link
-    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>M&A TURISMO</title>
   </head>
   <body>
@@ -19,8 +25,7 @@
 
     <header>
       <div class="endereco">
-        <i id="icons" class="fa-sharp fa-solid fa-location-dot"></i>
-        <p>Rio de Janeiro, Rj</p>
+                <p>Rio de Janeiro, Rj</p>
       </div>
 
       <div class="contatos">
@@ -30,225 +35,186 @@
     </header>
 
     <!--------------------------NAV------------------------------------->
-        <nav class="nav-bar">
-          <div class="logo">
-            <img  class="img_logo" src="./img/1 (1).png" alt="">
-            
-          </div>
-          <div class="nav-list">
-            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-      <menu id="itens">
-            <ul>
+    <section class="nav-bar">
+      <nav class="navbar navbar-expand-lg bg-light"> <!--NavBar-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">M&A Turismo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
               <li class="nav-item">
-                <a href="#home" class="nav-link">Inicio</a>
+                <a class="nav-link" aria-current="page" href="#">Início</a>
               </li>
               <li class="nav-item">
-                <a href="#pt2" class="nav-link">Sobre</a>
+                <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
               </li>
               <li class="nav-item">
-                <a href="#programacao" class="nav-link">Programação</a>
+                <a class="nav-link" aria-current="page" href="#fotos">Fotos</a>
               </li>
               <li class="nav-item">
-                <a href="#fotos" class="nav-link">Fotos</a>
+                <a class="nav-link" aria-current="page" href="#footer-quem_somos">Quem somos</a>
               </li>
-              <li class="nav-item">
-                <a href="#contato" class="nav-link">Contato</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Mais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Algo mais</a></li>
+                  <li><a class="dropdown-item" href="#">Algo mais</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Algo mais</a></li>
+                </ul>
               </li>
             </ul>
-            </menu>
-           
-            </div>
-          </div>
-         
-        </nav>
-     <!-------------------------------HOME---------------------------------->
+          
+            <div>
+              <button class="contato" >Contato  </button>
+    </section>
+
+       <!-------------------------------HOME---------------------------------->
    
-      <div class="banner" id="home">
+       <div class="banner" id="home">
+        <img src="./img/1 (1).png" alt="" class="img-logo" >
         <div class="text-banner">
           <p>Aqui seu sonho se torna realidade</p>
           <p>Vem com <span> M&A TURISMO.</span></p>
           <div class="login-button">
-            <button class="login-text">
-              <a href="https://wa.me/5521991819294">Whatsapp</a> <i class="fa-solid fa-arrow-right"></i>
+            <button class="bt-home">
+              <a href="https://wa.me/5521991819294"  class="bt-home">Whatsapp</a> <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
         </div>
       </div>
     </section>
 
-     <!-------------------------------SOBRE---------------------------------->
-    <section class="sobre">
-      <div>
-        
+    <!---------------------------------------------------------------->
+    <section>
+    <div class="container1" >
+      <div class="d-flex gap-2">
+        <img src="./img/onibus.jpg"  class="img-home2" alt="">
       </div>
-    </section>
-
-     <!-------------------------------PROGRAMAÇÃO---------------------------------->
-    <section id="programacao">
-      <h2 class="titulo">Proximas Programações</h2>
-
-      <div class="div-card">
-        <div class="card">
-          <h3> NATAL LUZ EM
-            PETRÓPOLIS </h3>
-          <h5>Saida: 06/01/2024</h5>
-          <p>O Natal Imperial de Petrópolis, nos encanta
-            com o fascínio das musicas natalinas e suas luzes nós enche de encanto. Para fechar o nosso ano de 2023, estaremos nesse lindo evento Natal Luz e Petròplis.</p>
-
-            <h5>O pacote inclui:</h5>
-            <ul>
-              <li>Transporte em Ônibus Executivo;</li>
-              <li>Guia.M Augusta  credenciado Mtur  acompanhando o grupo;</li>
-              <li>Visita a Guiada a Cidade de Petrópolis;</li>
-              <li>Tempo Livre na Av. Koeler e Catedral Metropolitana, para apreciação das luzes natalinas;</li>
-              <li> Visita  Palácios Quitandinha (Visita Externa;)</li>
-              <li>Brindes sorteados.</li>
-              
-
-            </ul>
-          <img class="img-programacao" src="./img/natalLuz/1.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/10.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/11.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/2.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/3.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/4.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/5.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/6.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/7.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/8.jpg" alt="">
-          <img class="img-programacao" src="./img/natalLuz/9.jpg" alt="">
-
-
-        </div>
-        <div class="div-card">
-          <div class="card">
-            <h3>  SÍTIO JONASAKE</h3>
-            <h5>DIA: 20/01/2024 (FERIADO)</h5>
-            <p></p>
-  
-              <h5>Dependências do Sítio :</h5>
-              <ul>
-                <li>Playground para crianças </li>
-                <li>6 piscinas</li>
-                <li>2 com toboágua </li>
-                <li>Salão de jogos </li>
-                <li>Recanto infantil </li>
-                <li>Jardim Japonês </li>
-                <li>Grande área verde</li>
-                <li></li>
-
-                <h5>PROGRAMAÇÃO:</h5>
-                <ul>
-                  <li>8:30./10:00h. Café da manhã (leite, café, suco, achocolatado, bolo, torrada,  pão, biscoito, manteiga, bolinho de aipim, patê, cachorro-quente e fruta).8</li>
-                  <li>09:45h./11:00h. Atividades recreativas interativas nos salões, com a equipe de recreadores Jonasake. </li>
-                  <li>11:00h./15:00h. Bebidas  (Cerveja, refrigerante, Suco e vinho). Somente neste horário, fora desde horário será cobrado. </li>
-                  <li>11:15h./12:00h. Petiscos (quibe, linguiça fatiada, alcatra fatiada, coxinha de frango e pão com creme de cebola).</li>
-                  <li>11:30h./16:30h. Música ao vivo.</li>
-                  <li>11:40h./12:45. Caldo verde. </li>
-                  <li>13:30./15:00h. Almoço (churrasco com guarnição, macarrão, diversas salada, bolinho de bacalhau, frango  à moda oriental, batata frita, yakissoba, etc.), sobremesa (doce caseiro, churros, mousse e fruta), chá e café.  </li>
-                  <li>15:15h. Apresentações folclóricas e atividades participativas.</li>
-                  <li>15:40h. Tema do mês (Tema livre )</li>
-                  <li>16:30h./ Homenagem  aos aniversariantes da semana.</li>
-                
-  
-              </ul>
-            <img class="img-programacao" src="./img/sitio jonazak/1.jpg" alt="">
-            <img class="img-programacao" src="./img/sitio jonazak/2.jpg" alt="">
-            <img class="img-programacao" src="./img/sitio jonazak/3.jpg" alt="">
-            <img class="img-programacao" src="./img/sitio jonazak/4.jpg" alt="">
-            <img class="img-programacao" src="./img/sitio jonazak/5.jpg" alt="">
-           
+      <div class="text1">
+      <h3 class="h3-prom">Promoções imperdíveis</h3>
+      <h1 class="strong" >Uma seleção de viagens para suas próximas férias</h1>
+    </div>
   </div>
   </div>
-  
-          </div>
-    </section>
+</section>
+    <!-------------------------------PROGRAMAÇÃO---------------------------------->
+    <section > <!-- Section Passagem -->
 
-     <!-------------------------------FOTOS---------------------------------->
-    <section id="fotos">
+      <h2 class="titulo">PROGRAMAÇÃO</h2>
 
-       <h2 class="titulo">Fotos</h2>
-
-      <div class="div-card">
-        <div class="card">
-          <h3>Parque aquático aldeias das águas </h3>
-          <img class="img-programacao" src="./img/aleias das aguas/1.jpg" alt="">
-          <img class="img-programacao" src="./img/aleias das aguas/2.jpg" alt="">
-          <img class="img-programacao" src="./img/aleias das aguas/3.jpg" alt="">
-          <img class="img-programacao" src="./img/aleias das aguas/4.jpg" alt="">
-          <img class="img-programacao" src="./img/aleias das aguas/5.jpg" alt="">
-          <img class="img-programacao" src="./img/aleias das aguas/6.jpg" alt="">
-          <img class="img-programacao" src="./img/aleias das aguas/7.jpg" alt="">
-            </div>
-            </div>
-
-            <div class="div-card">
-              <div class="card">
-                <h3>Holambra </h3>
-                <img class="img-programacao" src="./img/holambra/1.jpg" alt="">
-                <img class="img-programacao" src="./img/holambra/2.jpg" alt="">
-                <img class="img-programacao" src="./img/holambra/3.jpg" alt="">
-                <img class="img-programacao" src="./img/holambra/4.jpg" alt="">
-                  </div>
-                  </div>
-
-                  <div class="div-card">
-                    <div class="card">
-                      <h3>Terra do Dinossauros - Miguel Pereira </h3>
-                      <img class="img-programacao" src="./img/terra dinossauro/1.jpg" alt="">
-                      <img class="img-programacao" src="./img/terra dinossauro/2.jpg" alt="">
-                      <img class="img-programacao" src="./img/terra dinossauro/3.jpg" alt="">
-                      <img class="img-programacao" src="./img/terra dinossauro/4.jpg" alt="">
-                        </div>
-                        </div>
-
-                        <div class="div-card">
-                          <div class="card">
-                            <h3>HOTEL FAZENDA VALE DA MANTIQUEIRA </h3>
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/1.jpg" alt="">
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/2.jpg" alt="">
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/3.jpg" alt="">
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/4.jpg" alt="">
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/5.jpg" alt="">
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/6.jpg" alt="">
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/7.jpg" alt="">
-                            <img class="img-programacao" src="./img/hotel vale mandigueira/8.jpg" alt="">
-
-                              </div>
-                              </div>
-    </section>
-      
-
-     <!-------------------------------CONTATO---------------------------------->
-     
-   <section id="contact">
    
-      <h2 class="titulo">Entre em contato</h2>
+    </section>
+
+    <!-------------------------------FOTOS---------------------------------->
+
+    <section class="container" > <!-- Section carousel -->
+      <h2 class="titulo">FOTOS</h2>
+      
+        <div class="row" >
+          <div class="col-5 mx-auto mt-2 section-carousel">
+            <div id="carouselExampleIndicatorsInicio" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/aleias das aguas/7.jpg" class="d-block w-100" alt="...">
+                  <P>Aldeia das águas</P>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/hotel vale mandigueira/3.jpg" class="d-block w-100" alt="...">
+                  <P>Vale da Mandigueira</P>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/holambra/2.jpg" class="d-block w-100" alt="...">
+                  <p>Holambra</p>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/natalLuz/9.jpg" class="d-block w-100" alt="...">
+                  <p>Natal Luz</p>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/sitio jonazak/1.jpg" class="d-block w-100" alt="...">
+                  <p>Sitio Jonosake</p>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/terra dinossauro/2.jpg" class="d-block w-100" alt="...">
+                  <p>Terra do Dinossauro</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsInicio"
+                data-bs-slide="prev">
+                <span class="" aria-hidden="true"><img src="./img/back-button.png" width="100%" alt=""></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsInicio"
+                data-bs-slide="next">
+                <span class="" aria-hidden="true"><img src="./img/right.png" width="100%"  alt=""></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        </section>
+      
+   
+
+
+    <!-------------------------------CONTATO---------------------------------->
+
+    <section id="contact">
+      <h2 class="titulo">CONTATO</h2>
 
       <form action="https://formsubmit.co/mariadefante@gmail.com" method="post">
-       
         <input type="text" placeholder="Digite seu nome" />
         <input type="number" placeholder="Digite seu Telefone" />
         <input type="email" placeholder="Digite seu e-mail" />
 
-        <input type="hidden" name="_captcha" value="false"/>
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html"/>
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.1:5500/sucesso.html"
+        />
 
-        <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-        <button><a href="./sucesso.html" value="Enviar" class="button">Enviar</a></button>
-
-        
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+        <button>
+          <a href="./sucesso.html" value="Enviar" class="button">Enviar</a>
+        </button>
       </form>
-   </section>
-    
+    </section>
+
     <!-------------------------------FOOTER---------------------------------->
-   <section class="footer">
-    <footer>
-      <span
-        >Copyright © 2023 Tais Defante . Todos os direitos reservados.</span      >      <br />
-      <span>Contato: taisadefante@hotmail.com</span>
-    </footer>
-  </section>
+    <section class="footer">
+      <footer>
+        <span
+          >Copyright © 2023 Tais Defante . Todos os direitos reservados.</span
+        >
+        <br />
+        <span>Contato: taisadefante@hotmail.com</span>
+      </footer>
+    </section>
+
+  
   </body>
   <script src="./script.js"></script>
   <script>
@@ -260,4 +226,15 @@
       }
     }
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+  integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+  integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+  crossorigin="anonymous"></script>
+<script src="JS/script.js"></script>
 </html>
