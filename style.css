@@ -90,7 +90,7 @@ a.nav-link:hover {
   padding: 10%;
 }
 
-span {
+.empresa {
   color: #0c28fe;
 }
 
@@ -144,6 +144,9 @@ button {
 .img-home2 {
   width: 50%;
 }
+
+/* ****************PROGRAMAÇÃO****************/
+
 /* ****************CONTATO****************/
 
 .title {
@@ -169,10 +172,10 @@ button {
 /* ****************FOOTER ****************/
 
 footer {
-  padding: 12px;
+  padding: 10px;
   text-align: center;
   background: #002f5c;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 span {
