@@ -97,7 +97,7 @@ span {
 button {
   border: none;
   background-color: #0c28fe;
-  padding: 20px 40px;
+
   border-radius: 10px;
 }
 
@@ -144,115 +144,39 @@ button {
 .img-home2 {
   width: 50%;
 }
-/*****************************************PROGRAMAÇÃO******************/
+/* ****************CONTATO****************/
 
-.titulo {
+.title {
   color: #0c28fe;
   font-size: 300%;
   text-align: center;
   margin-top: 30px;
 }
 
-/************************FOTOS*******************************/
-.carousel .carousel-indicators button {
-  max-width: 30px;
-  height: 15px;
-  border-radius: 100%;
+#i-contato {
+  font-size: 50px;
+  margin: 30px;
 }
 
-/* ****************CONTATO****************/
 #contact {
-  height: calc(100vh + 80px);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 30px;
-  background-color: white;
+  text-align: center;
 }
 
-#contact form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 600px;
-  width: 100%;
-  padding: 5px 20px;
-}
-input,
-textarea,
-button {
-  box-shadow: 0 1px 2px white;
-  border: 4px solid #0c28fe;
-  padding: 10px;
-  border-radius: 5px;
-  outline: none;
-  resize: none;
+#contact a:hover {
+  cursor: grab;
 }
 
-#contact form button {
-  background-color: #0c28fe;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
-  opacity: 0.9;
-}
-#contact form button:hover {
-  opacity: 2;
-}
-
-.button {
-  color: white;
-  background-color: #0c28fe;
-}
 /* ****************FOOTER ****************/
 
 footer {
   padding: 12px;
   text-align: center;
-  color: white;
+  background: #002f5c;
   font-size: 15px;
 }
 
-/* SUCCESS PAGE */
-.success_body {
-  background-color: #000000;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.success_cont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 50px;
-  color: #0c28fe;
-}
-
-.success_cont h1 {
-  padding: 30px;
-}
-
-.success_cont a {
-  border: 1px solid #0c28fe;
-  padding: 10px 30px;
-  color: #0c28fe;
-  transition: 0.3s;
-}
-
-.success_cont a:hover {
-  background-color: #0c28fe;
-  color: #030303;
-}
-
-.agradecimento {
+span {
   color: white;
-  padding: 10px;
 }
 
 /*******************RESPONSIVO****************/
