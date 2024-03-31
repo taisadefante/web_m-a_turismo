@@ -288,10 +288,31 @@ h1 {
 /* Galeria */
 
 .container_galeria {
-  align-items: center;
+  text-align: center;
+}
+.card_galeria {
+  width: 80%;
+  display: inline-block;
+  border: 5px solid var(--primary);
+  margin: 30px;
+  display: inline-block;
+}
+
+.card_galeria h3 {
+  color: var(--primary);
+  text-align: center;
+  font-size: 30px;
+}
+
+.descricao {
+  text-align: center;
+  line-height: 0;
 }
 
 .container_galeria img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
 }
 
 /* Footer */
