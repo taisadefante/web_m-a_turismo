@@ -67,6 +67,10 @@ header {
   background-size: 70%;
 }
 
+.principal .container {
+  margin-bottom: 80px;
+}
+
 .principal-section {
   display: flex;
   justify-content: space-between;
@@ -91,13 +95,13 @@ header {
   border: solid 2px var(--light-grey);
   padding: 15px 45px;
   border-radius: 60px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--dark-grey);
   position: relative;
 }
 
-.principal-diarista-text span {
+.principal-text span {
   color: var(--primary);
 }
 
@@ -128,8 +132,8 @@ header {
 }
 
 .principal-image img {
-  width: 700px;
-  padding: 40px;
+  width: 100%;
+  padding: 10px;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -457,6 +461,10 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .principal-image {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
@@ -467,5 +475,9 @@ h1 {
 
   .card {
     width: 80%;
+  }
+
+  .principal-image {
+    display: none;
   }
 }
