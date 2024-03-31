@@ -299,6 +299,7 @@ h1 {
 .container_galeria {
   text-align: center;
 }
+
 .card_galeria {
   width: 80%;
   display: inline-block;
@@ -417,6 +418,10 @@ h1 {
   .card {
     width: 80%;
   }
+
+  .card_galeria {
+    border: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -457,6 +462,10 @@ h1 {
   .card {
     width: 80%;
   }
+
+  .card_galeria {
+    border: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -472,6 +481,10 @@ h1 {
   .principal-image {
     display: none;
   }
+
+  .card_galeria {
+    border: none;
+  }
 }
 
 @media (max-width: 450px) {
@@ -486,5 +499,9 @@ h1 {
 
   .principal-image {
     display: none;
+  }
+
+  .card_galeria {
+    border: none;
   }
 }
