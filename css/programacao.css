@@ -1,0 +1,292 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #6b2aee;
+  --secondary: #02e7d9;
+  --light-grey: #e5e5e5;
+  --dark-grey: #707070;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+header {
+  box-shadow: 1px 0 15px rgba(98, 98, 98, 0.294);
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-contato_nav i {
+  font-size: 40px;
+}
+
+.link-contato_nav i:hover {
+  color: green;
+}
+
+.btn-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-contained {
+  background-color: var(--primary);
+  padding: 10px 35px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.btn-void {
+  background-color: #fafafa;
+  padding: 10px 35px;
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+/* Footer */
+.footer1 {
+  background-color: var(--primary);
+  padding: 0px 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 50px;
+}
+
+.footer-item {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-item ul a {
+  color: #fff;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media i {
+  color: var(--light-grey);
+  font-size: 30px;
+}
+
+.social-media a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.social-media a:hover {
+  transform: scale(1.07);
+  transition: 0.4s;
+}
+
+/* ****************FOOTER ****************/
+
+footer {
+  padding: 10px;
+  text-align: center;
+
+  font-size: 10px;
+}
+
+span {
+  color: #707070;
+}
+
+/*******************RESPONSIVO****************/
+
+/* Breakpoints */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .principal {
+    background-size: 100% 100%;
+    background-position: bottom;
+    padding: 50px 0;
+  }
+
+  .principal-image {
+    display: none;
+  }
+
+  .principal-section {
+    justify-content: center;
+  }
+
+  .principal-description {
+    text-align: center;
+  }
+
+  .porq {
+    margin-top: 0;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .principal-section,
+  .principal-description {
+    width: 100%;
+    display: block;
+  }
+
+  .principal-description {
+    gap: 0;
+    max-width: 100%;
+  }
+
+  .principal-diarista-text,
+  .principal-description p {
+    border: none;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .principal-diarista-text::after {
+    display: none;
+  }
+
+  .principal-diarista-text span {
+    color: var(--dark-grey);
+  }
+
+  .principal-description a {
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin: 30px auto 10px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .porq-campos-item {
+    gap: 15px;
+  }
+
+  .porq-campos-item hr {
+    width: 100%;
+    display: block;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .porq-item i {
+    font-size: 24px;
+  }
+
+  .btn-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #card_respon2 {
+    display: none;
+  }
+
+  #card_respon {
+    display: none;
+  }
+
+  .card_section {
+    display: none;
+  }
+
+  .card_section2 {
+    display: none;
+  }
+
+  .section-carousel {
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #card_respon {
+    display: none;
+  }
+
+  .card_section {
+    display: none;
+  }
+
+  .section-carousel {
+    width: 55% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #card_respon2 {
+    display: none;
+  }
+
+  #card_respon {
+    display: none;
+  }
+
+  #card_respon3 {
+    display: none;
+  }
+
+  .card_section {
+    display: none;
+  }
+
+  .respons-section {
+    width: 100% !important;
+  }
+
+  .section-carousel {
+    width: 75% !important;
+  }
+}
