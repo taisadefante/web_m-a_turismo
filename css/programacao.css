@@ -166,6 +166,10 @@ footer {
   .password-recover {
     align-self: flex-end;
   }
+
+  .card {
+    width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -202,6 +206,10 @@ footer {
   .btn-form button {
     width: 50%;
   }
+
+  .card {
+    width: 80%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -218,6 +226,10 @@ footer {
 @media (max-width: 450px) {
   .btn-form a,
   .btn-form button {
+    width: 80%;
+  }
+
+  .card {
     width: 80%;
   }
 }
